@@ -1,0 +1,5 @@
+dist
+.next
+.eslintrc.js
+api/
+next.config.js

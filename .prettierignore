@@ -1,0 +1,6 @@
+dist
+.prettierrc
+package.json
+vite.config.js
+.next
+.eslintrc.js
