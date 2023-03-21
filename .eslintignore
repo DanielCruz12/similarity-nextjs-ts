@@ -4,3 +4,4 @@ dist
 api/
 next.config.js
 tsconfig.tsbuildinginfo
+tsconfig.json

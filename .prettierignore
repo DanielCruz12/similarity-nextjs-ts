@@ -4,3 +4,6 @@ package.json
 vite.config.js
 .next
 .eslintrc.js
+tsconfig.json
+.vscode
+next.config.js
