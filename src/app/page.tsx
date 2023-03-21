@@ -5,11 +5,12 @@ import React from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+	const hello: number = 2
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
 				<p>
-					Get started danielpage
+					Get started danielpage {hello}
 					<code className={styles.code}>src/app/page.tsx</code>
 				</p>
 				<div>
