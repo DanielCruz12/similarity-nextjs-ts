@@ -2,12 +2,14 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import React from 'react'
+import Paragraph from './components/ui/Paragraph'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 	const hello: number = 2
 	return (
 		<main className={styles.main}>
+			<Paragraph title="pepe" />
 			<div className={styles.description}>
 				<p>
 					Get started danielpage {hello}
