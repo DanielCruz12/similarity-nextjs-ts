@@ -4,7 +4,7 @@ import './styles/index.css'
 export default function Home() {
 	return (
 		<main>
-		<Paragraph size="sm">hi</Paragraph>
+			<Paragraph size="sm">hi</Paragraph>
 		</main>
 	)
 }
