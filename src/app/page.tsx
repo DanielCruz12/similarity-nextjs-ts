@@ -1,9 +1,10 @@
+import Paragraph from './components/ui/Paragraph'
 import './styles/index.css'
 
 export default function Home() {
 	return (
 		<main>
-			<h1>hi bro</h1>
+		<Paragraph size="sm">hi</Paragraph>
 		</main>
 	)
 }
