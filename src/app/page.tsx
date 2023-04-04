@@ -1,5 +1,7 @@
 import './styles/index.css'
 
 export default function Home() {
-	return <main className="bg-white"></main>
+	return <main >
+		<h1 >hi bro</h1>
+	</main>
 }
