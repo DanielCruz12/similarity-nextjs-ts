@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+	color: whitesmoke;
+}
+
+.text {
+	font-family: var(--inter-font);
+	font-weight: 200;
+	font-style: italic;
+}
