@@ -41,7 +41,7 @@
     "eslint-config-prettier": "^8.8.0",
     "framer-motion": "^10.10.0",
     "lodash": "^4.17.21",
-    "lucide-react": "^0.130.0",
+    "lucide-react": "^0.144.0",
     "nanoid": "^4.0.2",
     "next": "13.2.4",
     "next-auth": "^4.21.1",
