@@ -1,11 +1,23 @@
-import { FC } from 'react'
+import { toast } from './ui/toast'
 
-interface SignInButtonProps {
-	name: string
-}
 
-const SignInButton: FC<SignInButtonProps> = () => {
-	return <div>SignInButton Text to join signInButton</div>
+const SignInButton = () => {
+/* 	const [isLoading, setIsLoading] = useState<boolean>(false)
+ */
+	const signInWithGoogle = async () => {
+		try {
+			toast({
+			  title: 'Error signing in',
+			  message: 'Please try again later.',
+			  type: 'error',
+			})
+		  /* await signIn('google') */
+		} catch (error) {
+			console.log(error)
+		}
+	  }
+	
+	return <div onClick={signInWithGoogle} >sign In</div>
 }
 
 export default SignInButton
