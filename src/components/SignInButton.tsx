@@ -1,8 +1,8 @@
 'use client'
-
+/* 
 import { signIn } from 'next-auth/react'
 import { useState } from 'react'
-import { toast } from './ui/toast'
+import { toast } from './ui/toast' */
 import { Button } from './ui/Button'
 
 /**
@@ -11,7 +11,7 @@ import { Button } from './ui/Button'
  */
 
 const SignInButton = () => {
-	const [isLoading, setIsLoading] = useState<boolean>(false)
+	/* 	const [isLoading, setIsLoading] = useState<boolean>(false)
 
 	const signInWithGoogle = async () => {
 		try {
@@ -24,13 +24,9 @@ const SignInButton = () => {
 				type: 'error',
 			})
 		}
-	}
+	} */
 
-	return (
-		<Button onClick={signInWithGoogle} isLoading={isLoading}>
-			Sign in
-		</Button>
-	)
+	return <Button>Sign in</Button>
 }
 
 export default SignInButton
