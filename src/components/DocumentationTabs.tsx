@@ -13,10 +13,10 @@ const DocumentationTabs = () => {
 					<TabsTrigger value="nodejs">nodejs</TabsTrigger>
 				</TabsList>
 				<TabsContent value="nodejs">
-					<Code animated code={nodejs} show language="javascript"></Code>
+					<Code animated code={nodejs} show language="javascript" />
 				</TabsContent>
 				<TabsContent value="python">
-					<Code animated code={python} show language="python"></Code>
+					<Code animated code={python} show language="python" />
 				</TabsContent>
 			</Tabs>
 		</>

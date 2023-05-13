@@ -34,7 +34,7 @@ export default function Home() {
 						With the Text Similarity API, you can easily determine the
 						similarity between two pieces of text with a free{' '}
 						<Link
-							href="/login"
+							href="/documentation"
 							className="underline underline-offset-2 text-black dark:text-light-gold"
 						>
 							API key
