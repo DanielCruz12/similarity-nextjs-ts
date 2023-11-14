@@ -5,6 +5,7 @@ import LargeHeading from '@/components/ui/LargeHeading'
 import Paragraph from '@/components/ui/Paragraph'
 import Link from 'next/link'
 import Image from 'next/image'
+import 'simplebar-react/dist/simplebar.min.css'
 
 export const metadata: Metadata = {
 	title: 'dan application',

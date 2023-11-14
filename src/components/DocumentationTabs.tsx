@@ -1,25 +1,29 @@
-'use-client'
+'use client'
 
 import { nodejs, python } from '@/helpers/documentation-code'
-import Code from './Code'
+import { FC } from 'react'
+import SimpleBar from 'simplebar-react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/Tabs'
+import Code from './Code'
 
-const DocumentationTabs = () => {
+const DocumentationTabs: FC = () => {
 	return (
-		<>
-			<Tabs defaultValue="nodejs" className="max-w-2xl w-full max-h-96">
-				<TabsList>
-					<TabsTrigger value="python">python</TabsTrigger>
-					<TabsTrigger value="nodejs">nodejs</TabsTrigger>
-				</TabsList>
-				<TabsContent value="nodejs">
-					<Code animated code={nodejs} show language="javascript" />
-				</TabsContent>
-				<TabsContent value="python">
-					<Code animated code={python} show language="python" />
-				</TabsContent>
-			</Tabs>
-		</>
+		<Tabs defaultValue="nodejs" className="max-w-2xl w-full">
+			<TabsList>
+				<TabsTrigger value="nodejs">NodeJS</TabsTrigger>
+				<TabsTrigger value="python">Python</TabsTrigger>
+			</TabsList>
+			<TabsContent value="nodejs">
+				<SimpleBar forceVisible="y">
+					<Code animated code={nodejs} language="javascript" show />
+				</SimpleBar>
+			</TabsContent>
+			<TabsContent value="python">
+				<SimpleBar forceVisible="y">
+					<Code animated code={python} language="python" show />
+				</SimpleBar>
+			</TabsContent>
+		</Tabs>
 	)
 }
 

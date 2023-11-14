@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
-import Highlight, { defaultProps, type Language } from 'prism-react-renderer'
 import { FC, useEffect, useState } from 'react'
+import Highlight, { defaultProps, type Language } from 'prism-react-renderer'
 
 interface CodeProps {
 	code: string

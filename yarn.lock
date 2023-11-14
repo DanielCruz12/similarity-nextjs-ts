@@ -3440,22 +3440,22 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-simplebar-core@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/simplebar-core/-/simplebar-core-1.2.3.tgz#d270ecec9aca14850c400a7aa80503858f6f23a5"
-  integrity sha512-xWZOYLlqWMW8qDCh1vcyyPdb10FOb8KJNCgqimsBKWS/o6a/9LnATjBgR2+nTzTHUT+DGOOf+TM8yj54/Io+dw==
+simplebar-core@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/simplebar-core/-/simplebar-core-1.2.4.tgz#1fe965716a426f812c1a112ce28d98b9a643797b"
+  integrity sha512-P+Sqshef4fq3++gQ82TgNYcgl3qZFSCP5jS2/8NMmw18oagXOijMzs1G+vm6RUY3oMvpwH3wGoqh9u6SyDjHfQ==
   dependencies:
     "@types/lodash-es" "^4.17.6"
     can-use-dom "^0.1.0"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
 
-simplebar-react@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-3.2.3.tgz#b0d1d6111ab0ef009547baf83df58977b8fec20a"
-  integrity sha512-GjbACC7KlDUlfIZSbLf7K4FQcHW4rS0OFAAs6YvJpHUsOZ5DtIzg1WD4Uv+nO8wfQLFXMyFHDVk0jm15APFRNA==
+simplebar-react@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-3.2.4.tgz#fa495e50048c497c767fb5591b106658f160b240"
+  integrity sha512-ogLN79e7JUm82wJChD7NSUB+4EHCFvDkjXpiu8hT1Alk7DnCekUWds61NXcsP9jC97KOgF5To/AVjYFbX0olgg==
   dependencies:
-    simplebar-core "^1.2.3"
+    simplebar-core "^1.2.4"
 
 slash@^3.0.0:
   version "3.0.0"
